@@ -1,0 +1,71 @@
+# PHP & Web Development .gitignore
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# Log files
+*.log
+/logs/
+error_log
+
+# Cache directories
+/cache/
+/tmp/
+/temp/
+
+# IDE and Editor files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+composer.phar
+/vendor/
+composer.lock
+
+# XAMPP/WAMP specific
+/xampp/
+/wamp/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Upload directories (for future file uploads)
+/uploads/
+/files/
+
+# Configuration files with sensitive data
+config.php
+database.php
+
+# Session files
+/sessions/
+
+# Compiled assets
+/dist/
+/build/
