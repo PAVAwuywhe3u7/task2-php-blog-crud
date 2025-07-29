@@ -1,0 +1,66 @@
+# PHP Blog Application - Task 2
+# Gitignore file for PHP project
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+*.log
+*.tmp
+*.temp
+
+# Composer (if used in future)
+/vendor/
+composer.lock
+
+# Environment files (if used in future)
+.env
+.env.local
+.env.production
+
+# Cache and temporary files
+/cache/
+/tmp/
+/temp/
+
+# Upload directories (if implemented)
+/uploads/
+/files/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration files with sensitive data (keep template versions)
+# config/database.php (commented out - we want to include this for demo)
+
+# Error logs
+error.log
+php_errors.log
+
+# Session files
+/sessions/
+
+# Node modules (if frontend build tools added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+/dist/
+/build/
